@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Angel">
+      <UniqueIdentifier>{80aac61d-5919-4b3a-b36a-e7ab13398075}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SOIL">
+      <UniqueIdentifier>{63b0e815-1623-407e-8345-5cc944d6df7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Objects">
+      <UniqueIdentifier>{539ef0ab-269d-4c2c-bcf7-3fef8ac6330b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GLSLShader">
+      <UniqueIdentifier>{ede65f1f-c460-4779-8014-85339d004ebd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\SOIL">
+      <UniqueIdentifier>{d62726c7-9495-4b7a-963a-eab8a205165c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\shaders">
+      <UniqueIdentifier>{8fc7bf4a-ce13-472f-8603-337b92ad5dca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects">
+      <UniqueIdentifier>{48167a06-e639-452c-8a6b-973fe9cc69bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GLSLShader">
+      <UniqueIdentifier>{b25ac8bf-a937-4689-9411-b0c78c7c007f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InitShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Control.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SOIL.c">
+      <Filter>Source Files\SOIL</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image_aug.c">
+      <Filter>Source Files\SOIL</Filter>
+    </ClCompile>
+    <ClCompile Include="image_helper.c">
+      <Filter>Source Files\SOIL</Filter>
+    </ClCompile>
+    <ClCompile Include="image_DXT.c">
+      <Filter>Source Files\SOIL</Filter>
+    </ClCompile>
+    <ClCompile Include="Floor.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectLoader.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GLSLShader.cpp">
+      <Filter>Source Files\GLSLShader</Filter>
+    </ClCompile>
+    <ClCompile Include="Cloth.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Sphere.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Bar.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Skybox.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="BurnGrid.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Fire.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="IgnitionPoint.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MatrixStack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Control.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Angel.h">
+      <Filter>Header Files\Angel</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mat.h">
+      <Filter>Header Files\Angel</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vec.h">
+      <Filter>Header Files\Angel</Filter>
+    </ClInclude>
+    <ClInclude Include="SOIL.h">
+      <Filter>Header Files\SOIL</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image_aug.h">
+      <Filter>Header Files\SOIL</Filter>
+    </ClInclude>
+    <ClInclude Include="stbi_DDS_aug.h">
+      <Filter>Header Files\SOIL</Filter>
+    </ClInclude>
+    <ClInclude Include="stbi_DDS_aug_c.h">
+      <Filter>Header Files\SOIL</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Floor.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CheckError.h">
+      <Filter>Header Files\Angel</Filter>
+    </ClInclude>
+    <ClInclude Include="image_DXT.h">
+      <Filter>Header Files\SOIL</Filter>
+    </ClInclude>
+    <ClInclude Include="image_helper.h">
+      <Filter>Header Files\SOIL</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectLoader.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="GLSLShader.h">
+      <Filter>Header Files\GLSLShader</Filter>
+    </ClInclude>
+    <ClInclude Include="Cloth.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Bar.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Skybox.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="BurnGrid.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Fire.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="IgnitionPoint.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fragment.glsl">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+    <None Include="vertex.glsl">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+    <None Include="select.glsl">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+    <None Include="vertex_selected.glsl">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+    <None Include="compute.glsl">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+    <None Include="floorFrag.glsl">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+    <None Include="floorVert.glsl">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+    <None Include="objectFrag.glsl">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+    <None Include="objectVert.glsl">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+    <None Include="skyFrag.glsl">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+    <None Include="skyVert.glsl">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+    <None Include="shadowFrag.glsl">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+    <None Include="shadowVert.glsl">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+    <None Include="computeShadow.glsl">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9ED90131-2F92-4BFC-AD64-3D2CCC983F5A}</ProjectGuid>
+    <RootNamespace>graphics_practice</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>C:\Users\e_ith\Desktop\comp477-f19-06\src\Dependencies\glew-2.1.0\include;C:\Users\e_ith\Desktop\comp477-f19-06\src\Project\Cloth Simulation\graphics_practice\graphics_practice\include;C:\Users\e_ith\Desktop\comp477-f19-06\src\Dependencies\freeglut\include;D:\Repositories\comp477-f19-06\src\Project\Cloth Simulation\graphics_practice\graphics_practice\include;D:\Repositories\comp477-f19-06\src\Dependencies\glew-1.11.0\include;D:\Repositories\comp477-f19-06\src\Dependencies\freeglut\include;C:\Users\Mark-\Documents\comp477-f19-06\src;C:\Users\Mark-\Documents\comp477-f19-06\src\Dependencies\glew-1.11.0\include;C:\Users\Mark-\Documents\comp477-f19-06\src\Dependencies\freeglut\include;C:\Users\Mark-\Documents\comp477-f19-06\src\Project\Cloth Simulation\graphics_practice\graphics_practice\include;D:\1SCHOOL\COMP477\clothsimulation\graphics_practice\graphics_practice\include;D:\1SCHOOL\COMP477\C++ librairies\glew-2.1.0\include;D:\1SCHOOL\COMP477\FINAL PROJECT\comp477-f19-06\src\Dependencies\glm;D:\1SCHOOL\COMP477\FINAL PROJECT\comp477-f19-06\src\Dependencies\freeglut\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Opengl32.lib; freeglut.lib; glew32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\e_ith\Desktop\comp477-f19-06\src\Dependencies\glew-2.1.0\lib\Release\Win32;C:\Users\e_ith\Desktop\comp477-f19-06\src\Dependencies\freeglut\lib;D:\Repositories\comp477-f19-06\src\Dependencies\glew-1.11.0\lib;D:\Repositories\comp477-f19-06\src\Dependencies\freeglut\lib;C:\Users\Mark-\Documents\comp477-f19-06\src\Dependencies\glm;C:\Users\Mark-\Documents\comp477-f19-06\src\Dependencies\glew-1.11.0\lib;C:\Users\Mark-\Documents\comp477-f19-06\src\Dependencies\freeglut\lib;D:\1SCHOOL\COMP477\C++ librairies\glew-2.1.0\lib\Release\Win32;D:\1SCHOOL\COMP477\FINAL PROJECT\comp477-f19-06\src\Dependencies\freeglut\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Bar.cpp" />
+    <ClCompile Include="BurnGrid.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Cloth.cpp" />
+    <ClCompile Include="Control.cpp" />
+    <ClCompile Include="Fire.cpp" />
+    <ClCompile Include="Floor.cpp" />
+    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="GLSLShader.cpp" />
+    <ClCompile Include="IgnitionPoint.cpp" />
+    <ClCompile Include="image_DXT.c" />
+    <ClCompile Include="image_helper.c" />
+    <ClCompile Include="InitShader.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Object.cpp" />
+    <ClCompile Include="ObjectLoader.cpp" />
+    <ClCompile Include="Particle.cpp" />
+    <ClCompile Include="Skybox.cpp" />
+    <ClCompile Include="SOIL.c" />
+    <ClCompile Include="Sphere.cpp" />
+    <ClCompile Include="stb_image_aug.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bar.h" />
+    <ClInclude Include="BurnGrid.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Cloth.h" />
+    <ClInclude Include="Control.h" />
+    <ClInclude Include="Fire.h" />
+    <ClInclude Include="Floor.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="GLSLShader.h" />
+    <ClInclude Include="IgnitionPoint.h" />
+    <ClInclude Include="image_DXT.h" />
+    <ClInclude Include="image_helper.h" />
+    <ClInclude Include="include\Angel.h" />
+    <ClInclude Include="include\CheckError.h" />
+    <ClInclude Include="include\mat.h" />
+    <ClInclude Include="include\vec.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="MatrixStack.h" />
+    <ClInclude Include="Object.h" />
+    <ClInclude Include="ObjectLoader.h" />
+    <ClInclude Include="Particle.h" />
+    <ClInclude Include="Skybox.h" />
+    <ClInclude Include="SOIL.h" />
+    <ClInclude Include="Sphere.h" />
+    <ClInclude Include="stbi_DDS_aug.h" />
+    <ClInclude Include="stbi_DDS_aug_c.h" />
+    <ClInclude Include="stb_image_aug.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="compute.glsl" />
+    <None Include="computeShadow.glsl" />
+    <None Include="shadowFrag.glsl" />
+    <None Include="shadowVert.glsl" />
+    <None Include="floorFrag.glsl" />
+    <None Include="floorVert.glsl" />
+    <None Include="fragment.glsl" />
+    <None Include="select.glsl" />
+    <None Include="objectFrag.glsl" />
+    <None Include="objectVert.glsl" />
+    <None Include="skyFrag.glsl" />
+    <None Include="skyVert.glsl" />
+    <None Include="vertex.glsl" />
+    <None Include="vertex_selected.glsl" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

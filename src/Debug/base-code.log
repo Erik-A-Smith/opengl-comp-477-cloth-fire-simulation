@@ -1,0 +1,35 @@
+﻿  particle_generator.cpp
+d:\repositories\comp477-f19-06\src\particle_generator.cpp(33): warning C4244: '-=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+d:\repositories\comp477-f19-06\src\particle_generator.cpp(115): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+  shader.cpp
+  Generating Code...
+particle_generator.obj : error LNK2001: unresolved external symbol ___glewBindBuffer
+particle_generator.obj : error LNK2001: unresolved external symbol ___glewBufferData
+particle_generator.obj : error LNK2001: unresolved external symbol ___glewGenBuffers
+particle_generator.obj : error LNK2001: unresolved external symbol ___glewEnableVertexAttribArray
+particle_generator.obj : error LNK2001: unresolved external symbol ___glewVertexAttribPointer
+particle_generator.obj : error LNK2001: unresolved external symbol ___glewBindVertexArray
+particle_generator.obj : error LNK2001: unresolved external symbol ___glewGenVertexArrays
+shader.obj : error LNK2001: unresolved external symbol __imp____glewAttachShader
+shader.obj : error LNK2001: unresolved external symbol __imp____glewCompileShader
+shader.obj : error LNK2001: unresolved external symbol __imp____glewCreateProgram
+shader.obj : error LNK2001: unresolved external symbol __imp____glewCreateShader
+shader.obj : error LNK2001: unresolved external symbol __imp____glewDeleteShader
+shader.obj : error LNK2001: unresolved external symbol __imp____glewGetProgramInfoLog
+shader.obj : error LNK2001: unresolved external symbol __imp____glewGetProgramiv
+shader.obj : error LNK2001: unresolved external symbol __imp____glewGetShaderInfoLog
+shader.obj : error LNK2001: unresolved external symbol __imp____glewGetShaderiv
+shader.obj : error LNK2001: unresolved external symbol __imp____glewGetUniformLocation
+shader.obj : error LNK2001: unresolved external symbol __imp____glewLinkProgram
+shader.obj : error LNK2001: unresolved external symbol __imp____glewShaderSource
+shader.obj : error LNK2001: unresolved external symbol __imp____glewUniform1f
+shader.obj : error LNK2001: unresolved external symbol __imp____glewUniform1i
+shader.obj : error LNK2001: unresolved external symbol __imp____glewUniform2f
+shader.obj : error LNK2001: unresolved external symbol __imp____glewUniform3f
+shader.obj : error LNK2001: unresolved external symbol __imp____glewUniform4f
+shader.obj : error LNK2001: unresolved external symbol __imp____glewUseProgram
+D:\Repositories\comp477-f19-06\src\Debug\base-code.exe : fatal error LNK1120: 25 unresolved externals

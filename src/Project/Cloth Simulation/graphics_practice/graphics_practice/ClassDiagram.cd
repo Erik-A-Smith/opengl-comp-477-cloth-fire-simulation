@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Camera" Collapsed="true">
+    <Position X="3.5" Y="3.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Camera::direction" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Camera.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="Camera::Mode" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Camera.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>QBAyAgAgAAAiAACAQEADABAAAJoQAAAAAABhAQAAAAA=</HashCode>
+      <FileName>Camera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Control" Collapsed="true">
+    <Position X="5.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CIAAhgclPBAoDQCACoBQAEADAIAAAAEARABQAAAACAU=</HashCode>
+      <FileName>Control.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MatrixStack" Collapsed="true">
+    <Position X="3.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAgAIAAAAAAAAAAAAAIAQIAAAE=</HashCode>
+      <FileName>MatrixStack.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Particle">
+    <Position X="0.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAEQADAAAAAIAAAAAAAAAAASEAAYAAAAEAAA=</HashCode>
+      <FileName>Particle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PartObject">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAIAIAAAAEAAAAAIAAAAAAAEAAA=</HashCode>
+      <FileName>PartObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bar" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAEAAgAAAAAAAIAAAAAEACAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cloth" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAEAAAAAgAAAAIAYAAAAAAAAgAAAABgAAAAAAA=</HashCode>
+      <FileName>Cloth.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Floor" Collapsed="true">
+    <Position X="9.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAkAAIIAAAAAAAAAAgAAAABgAAAAAAA=</HashCode>
+      <FileName>Floor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Object" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gACAAAAECQAgIAAggBKAAAAAAIEAAAAAAgAAAAAAQgA=</HashCode>
+      <FileName>Object.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Face" Collapsed="true">
+    <Position X="7" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAIADwAAAAEAAAAAQAAAQANgAAAAAAAOBAAwAAAAA=</HashCode>
+      <FileName>ObjectLoader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObjectLoader" Collapsed="true">
+    <Position X="5.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAABAAAAAAAAAAAACAAAAAAAAQAAAAAAAAAAIAIA=</HashCode>
+      <FileName>ObjectLoader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Angel::mat2" Collapsed="true">
+    <Position X="3.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAQAAAAAAAQAAAAAAAAQAAAAEAAAAAAAAoAAAAAAA=</HashCode>
+      <FileName>include\mat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Angel::mat3" Collapsed="true">
+    <Position X="5.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAQAAAAAAAgAAAAAAAAQAAAAEAAAAAAAAoAAAAAAA=</HashCode>
+      <FileName>include\mat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Angel::mat4" Collapsed="true">
+    <Position X="7" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAQAAAAAAAAAEAAAAAAQAAAAEAAAAAAAAoAAAAAAA=</HashCode>
+      <FileName>include\mat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sphere" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgCEAAAEAAAAAAAAAAYAQAAAAACAAgAgAABgAAAIAAA=</HashCode>
+      <FileName>Sphere.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Skybox" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAEAAAAAAAAhAIAAAAAAACAAgAEAAAAAAAAAAA=</HashCode>
+      <FileName>Skybox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Angel::vec2" Collapsed="true">
+    <Position X="3.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAIAAAAAAAAAAAQAAAAEAAAAAAABoAAAAAAA=</HashCode>
+      <FileName>include\vec.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Angel::vec3" Collapsed="true">
+    <Position X="5.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAABAAAAAAAAAQAAAAEAAAAAAABoAQAAAAA=</HashCode>
+      <FileName>include\vec.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Angel::vec4" Collapsed="true">
+    <Position X="7" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAIAAAAAAAAAAQAAAAEAAAAAAAhoAQAAAAA=</HashCode>
+      <FileName>include\vec.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

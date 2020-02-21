@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BurnGrid">
+    <Position X="3.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAIgAAAgAIAAAAAIAAAAAAAAAAAAAAAAAAAIEEAA=</HashCode>
+      <FileName>BurnGrid.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameObject">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAIAIAAAAEAAAAAAAAAAAAIEAAA=</HashCode>
+      <FileName>GameObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Camera">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAEAAAAQAAAAIAAEAAAAAAAAAAAQAAAAI=</HashCode>
+      <FileName>Camera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cube">
+    <Position X="5.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAIAgAAAAIACAAIIAAAAAAAAAAQCBAAQAAAAGAAA=</HashCode>
+      <FileName>Cube.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fibre">
+    <Position X="7.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAQAAEKAAAAAAAAMAAAEAAEAAAIEgAA=</HashCode>
+      <FileName>Fibre.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fire">
+    <Position X="9.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAoABAgAAAAECAAKAAAAAAAEAAA=</HashCode>
+      <FileName>Fire.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IgnitionPoint">
+    <Position X="1.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAIAqQAAIAAAAAAEAAAQIMBAKAAAIEAAA=</HashCode>
+      <FileName>IgnitionPoint.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Particle">
+    <Position X="11.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAEQADAAAAIIAAAAAAAAAAASMAAQAAAAEBAA=</HashCode>
+      <FileName>Particle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
